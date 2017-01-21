@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+		<!-- This is the Example of CSS styles used with a Form-->
+		<title>Shipping Form</title>
+		<!-- Adding External Style sheet in the Head section-->
+		<link rel="stylesheet" type="text/css" href="Styles.css">
+	</head>
+
+	<body>
+		<!-- Form is added to keep All form details together-->
+		<form id="formstyle" style="font-family: Arial, Helvetica, sans-serif;">
+			<p>
+				Step 1: Your details
+			</p>
+			<!-- First Table for Your Details part of the form -->
+			<table width="320px" align="center" style="font-size: 11px;">
+				<tr>
+					<td class="colmproperty"><b>Name</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="text" name="firstandlastname" value="First and last name" style="font-size: 11px; width: 150px; background-color:white;">
+					</td>
+				</tr>
+				<tr>
+					<td class="colmproperty"><b>Email</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="text" name="Email" value="example@domain.com" style="font-size: 11px; width: 150px; background-color:white;">
+					</td>
+				</tr>
+				<tr>
+					<td class="colmproperty"><b>Phone</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="text" name="Phone" value="e.g. +4475000000000" style="font-size: 11px; width: 150px; background-color:white;">
+					</td>
+				</tr>
+			</table>
+			<p>
+				Step 1: Delivery Address
+			</p>
+			<!-- Second Table for Delivery Address part of the form -->
+			<table width="320px" align="center" style="font-size: 11px;">
+				<tr>
+					<td class="colmproperty" ><b style="vertical-align: top; text-align: top;">Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>					<textarea rows="3" cols="17">
+
+</textarea></td>
+				</tr>
+				<tr>
+					<td class="colmproperty"><b>Post code</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="text" name="postcode" style="width: 150px; background-color:white;">
+					</td>
+				</tr>
+				<tr>
+					<td class="colmproperty"><b>Country</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="text" name="country" style="width: 150px; background-color:white;">
+					</td>
+				</tr>
+			</table>
+			<p>
+				Step 1: Card datails
+			</p>
+			<!-- Third Table for Card Details part of the form -->
+			<table width="320px" align="center" style="font-size: 11px;">
+				<tr>
+					<td class="colmproperty"><b>Card type</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<br />
+					<input type="radio" name="gender" value="Visa" style="background-color: white;">
+					<img src="Visa logo.png"><b> VISA</b>
+					<input type="radio" name="gender" value="Amex" style="background-color: white;">
+					<img src="AmEx logo.png"><b> AmEx</b>
+					<input type="radio" name="gender" value="Mastercard" style="background-color: white;">
+					<img src="Mastercard logo.png"><b> Mastercard</b></td>
+				</tr>
+				<tr>
+					<td class="colmproperty"><b>Card number</b>&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="text" name="cardnumber" style="width: 150px; background-color:white;">
+					</td>
+				</tr>
+				<tr>
+					<td class="colmproperty"><b>Security code</b>&nbsp;&nbsp;&nbsp;
+					<input type="text" name="securitycode" style="width: 150px; background-color:white;">
+					</td>
+				</tr>
+				<tr>
+					<td class="colmproperty"><b>Name on card</b>&nbsp;&nbsp;&nbsp;
+					<input type="text" name="nameoncard" value="exact name as on the card" style="font-size: 11px; width: 150px; background-color:white;">
+					</td>
+				</tr>
+				<tr>
+					<!-- BUT IT button-->
+					<td align="center">
+					<button class="button">
+						BUY IT!
+					</button></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+
+</html>
+
